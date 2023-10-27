@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHOME">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="paragraph">Plan your trip.</p>
+                <button class="button" onclick="display('sectionFAVORITEPLACES')">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFAVORITEPLACES">
+        <div class="favourite-places-bg-container">
+            <h1 class="favorite-places-heading">Favourite Places</h1>
+            <div class="favorite-place-card-container d-flex flex-row justify-content-center" onclick="display('sectionTAJMAHAL')">
+                <div>
+                    <h1 class="favorite-places-card-heading">Taj Mahal</h1>
+                    <p class="favorite-places-card-description">If there was just one symbol to represent all of India, it would be Taj Mahal</p>
+                </div>
+                <img src="https://static.toiimg.com/thumb/91955051.cms?resizemode=75&width=1200&height=900" class="favorite-places-card-image" />
+            </div>
+            <div class="favorite-place-card-container d-flex flex-row justify-content-center" onclick="display('sectionGOLDENTEMPLE')">
+                <div>
+                    <h1 class="favorite-places-card-heading">Golden Temple</h1>
+                    <p class="favorite-places-card-description">Amritsar is World famous for the beautiful and highly revered Golden Temple</p>
+                </div>
+                <img src="https://static.toiimg.com/thumb/61820954.cms?resizemode=75&width=1200&height=900" class="favorite-places-card-image" />
+            </div>
+            <div class="favorite-place-card-container d-flex flex-row justify-content-center" onclick="display('sectionMYSOREPALACE')">
+                <div>
+                    <h1 class="favorite-places-card-heading">Mysore Palace</h1>
+                    <p class="favorite-places-card-description">Mysore Palace is the historical place and the royal residence at Mysore</p>
+                </div>
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Mysore-palace_600-1280x720.jpg" class="favorite-places-card-image" />
+            </div>
+            <div class="favorite-place-card-container d-flex flex-row justify-content-center" onclick="display('sectionVARANASITEMPLE')">
+                <div>
+                    <h1 class="favorite-places-card-heading">Varanasi Temple</h1>
+                    <p class="favorite-places-card-description">Varanasi Temple is the most famous Hindu Temple dedicated to Lord Shiva</p>
+                </div>
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/12/Temples-In-Varanasi-cover_8th-Dec.jpg" class="favorite-places-card-image" />
+            </div>
+            <div class="center">
+                <button class="button" onclick="display('sectionHOME')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTAJMAHAL">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49HTIoCccDY?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text">
+                    <h1 class="detailed-view-card-heading"> Taj Mahal </h1>
+                    <p class="detailed-view-card-description">
+                        The Taj Mahal is considered to be the greatest architectural achievement in the whole range of Indo-Islamic architecture. Its recognised architectonic beauty has a rhythmic combination of solids and voids, concave and convex and light shadow; such as arches and domes further increases the aesthetic aspect.
+                    </p>
+                </div>
+                <div class="center">
+                    <button class="button" onclick="display('sectionFAVORITEPLACES')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionGOLDENTEMPLE">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m701WKQMeYQ?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text">
+                    <h1 class="detailed-view-card-heading"> Golden Temple </h1>
+                    <p class="detailed-view-card-description">
+                        The Golden Temple Amritsar India (Sri Harimandir Sahib Amritsar) is not only a central religious place of the Sikhs, but also a symbol of human brotherhood and equality. Everybody, irrespective of cast, creed or race can seek spiritual solace and religious fulfilment without any hindrance. It also represents the distinct identity, glory and heritage of the Sikhs. More places to visit
+                    </p>
+                    <ul class="unordered-list">
+                        <li> Jallian Walabagh </li>
+                        <li> Wagah Border </li>
+                        <li> Harike Wetland </li>
+                        <li> Bathinda Fort </li>
+                    </ul>
+                </div>
+                <div class="center">
+                    <button class="button" onclick="display('sectionFAVORITEPLACES')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionMYSOREPALACE">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XQVR1WSw6bA?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text">
+                    <h1 class="detailed-view-card-heading"> Mysore Palace </h1>
+                    <p class="detailed-view-card-description">
+                        An incredibly breathtaking example of Indo - Saracenic style of architecture, the Mysore Palace is a magnificent edifice located in Mysore in the state of Karnataka. Also known as the Amba Vilas Palace, it is the former palace of the royal family of Mysore and is still their official residence. Mysore Palace was built in the year 1912 for the 24th Ruler of the Wodeyar Dynasty and is counted amongst one of the biggest palaces in the country. More places to visit
+                    </p>
+                    <ol class="ordered-list">
+                        <li> Jallian Walabagh </li>
+                        <li> Wagah Border </li>
+                        <li> Harike Wetland </li>
+                        <li> Bathinda Fort </li>
+                    </ol>
+                </div>
+                <div class="center">
+                    <button class="button" onclick="display('sectionFAVORITEPLACES')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionVARANASITEMPLE">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NkwxaZpuNQM?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text">
+                    <h1 class="detailed-view-card-heading"> Varanasi Temple </h1>
+                    <p class="detailed-view-card-description">
+                        Situated on the western bank of holy river Ganga in Varanasi, Kashi Vishwanath Temple is one of the 12 Jyotirlingas or temples dedicated to Lord Shiva. The main deity of Kashi Vishwanath Temple is Lord Shiva, also known as Vishwanatha or Vishweshwarar meaning 'the ruler of the universe'. The city of Varanasi, the cultural capital of India, is thus known as the city of Lord Shiva.
+                    </p>
+                </div>
+                <div class="center">
+                    <button class="button" onclick="display('sectionFAVORITEPLACES')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
